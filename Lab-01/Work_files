@@ -1,0 +1,29 @@
+    cd Lab-01
+1.  mkdir "Work/Лабораторная работа №1!"
+2.  mkdir "Work/Aks"
+3.  chmod 772 "Work/Лабораторная работа №1!"
+    ls -ld Work/*
+        d-w-------+ 2 codespace codespace 4096 Sep 17 20:38  Work/Aks
+        drwxrwx-w-+ 2 codespace codespace 4096 Sep 17 20:36 'Work/Лабораторная работа №1!'
+4.  printf 'Птица говорун отличается умом и сообразительностью!\nОтличается умом, отличается сообразительностью...\n' > "Work/Text @1"
+    cat "Work/Text @1"
+        Птица говорун отличается умом и сообразительностью!
+        Отличается умом, отличается сообразительностью...
+5.  cp "Work/Text @1" "Work/Text \$2"
+        bash: !/: event not found
+6.  mv 'Work/Лабораторная работа №1!/' 'Work/Лабораторная работа №1/'
+    mv "Work/Text \$2" "Work/Лабораторная работа №1/"
+    cp "Work/Text @1" "Work/Aks/"
+    cp "Work/Text#3" "Work/Aks/"
+7.  gzip "Work/Text @1"
+    gzip "Work/Text #3"
+8.  touch "Work/Text #3"
+    tar -cf Work/MyAchiv.tar "Work/Text @1.gz" "Work/Text #3.gz"
+    head -n 1 "Work/Aks/Text @1" > "Work/Text #3"
+    printf 'Будь осторожен! Преступник вооружен!\n' >> "Work/Text #3"
+9.  cp "Work/Aks/Text @1" "Work/"
+    rev "Work/Text @1" > "Work/Aks/Result_one"
+10. cat "Work/Aks"/T* > "Work/Лабораторная работа №1/Result_3"
+11. find Work -type f -name 'T*' -exec cat {} + > "Work/Лабораторная работа №1/Result_3"
+12. uname -a >> "Work/Лабораторная работа №1/Result_3"
+date >> "Work/Лабораторная работа №1/Result_3"

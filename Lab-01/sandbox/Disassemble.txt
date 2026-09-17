@@ -1,0 +1,14 @@
+Dump of assembler code for function _start:
+   0x08049009 <+0>:     mov    $0x4,%eax
+   0x0804900e <+5>:     mov    $0x1,%ebx
+   0x08049013 <+10>:    mov    $0x8049000,%ecx
+   0x08049018 <+15>:    mov    $0x5,%edx
+   0x0804901d <+20>:    int    $0x80
+   0x0804901f <+22>:    mov    $0x4,%eax
+   0x08049024 <+27>:    mov    $0x1,%ebx
+   0x08049029 <+32>:    mov    $0x8049005,%ecx
+   0x0804902e <+37>:    mov    $0x4,%edx
+   0x08049033 <+42>:    int    $0x80
+   0x08049035 <+44>:    mov    $0x1,%eax
+   0x0804903a <+49>:    xor    %ebx,%ebx
+   0x0804903c <+51>:    int    $0x80
